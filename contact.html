@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- link the css -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- link the icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Scroll Reveal Library -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Bmotive</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header>
+      <a href="index.html" class="brand">
+        <img src="img/logo/Logo2.png" alt="Logo2" class="logo"/>
+      </a>
+      <div class="menu">
+        <div class="btn">
+          <i class="fas fa-times close-btn"></i>
+        </div>
+        <a href="index.html">Home</a>
+        <a href="index.html#about">About</a>
+        <a href="index.html#services">Servizi</a>
+        <a href="index.html#work">Works</a>
+      </div>
+      <button
+        class="btn-2 btn-visible"
+        onclick="window.location.href='contact.html'"
+      >
+        Contattaci
+      </button>
+      <div class="btn">
+        <i class="fas fa-bars menu-btn"></i>
+      </div>
+    </header>
+    <!-- Navbar End -->
+
+    <!-- Contact Section -->
+    <section class="contact">
+    
+      
+      <h1 >Mettiti in contatto con Bmotive</h1>
+      <p class="gradient-text" style="font-weight: 700;">
+        Che tu abbia domande sui nostri servizi, voglia discutere di un noleggio o semplicemente desideri fare una chiacchierata su tutto ciò che riguarda il nostro settore, siamo qui e pronti a connetterci.
+      </p>
+
+      <form action="https://api.web3forms.com/submit" method="POST">
+        <input
+          type="hidden"
+          name="access_key"
+          value="8d6a236c-5752-49a4-a6d0-f57edde97d5b"
+        />
+        <input type="text" name="name" placeholder="Nome" />
+        <input type="number" name="contact number" placeholder="Contatto" />
+        <input type="email" name="email" placeholder="Email" />
+        <textarea
+          name="description"
+          cols="30"
+          rows="10"
+          placeholder="Cosa hai in mente?"
+        ></textarea>
+
+        <button type="submit" class="btn-2 btn-callout-2">
+          Contattaci <i class="fa-solid fa-arrow-up"></i>
+        </button>
+      </form>
+    </section>
+
+    <section class="footer">
+
+    
+      <div class="footer-callout" style="margin-top: 4rem;">
+        <a href="index.html" >Bmotive</a>
+        <div>
+          <h5>Pronti per iniziare?</h5>
+          <button
+            type="button"
+            class="btn-2 btn-callout"
+            onclick="window.location.href='contact.html'"
+          >
+            Contattaci <i class="fa-solid fa-arrow-up"></i>
+          </button>
+        </div>
+      </div>
+      <hr id="bf-hr" class="hr-1"/>
+      <div class="bottom-footer">
+        <div class="newsletter">
+          <p>Iscriviti alla nostra newsletters</p>
+          
+          <form action="https://api.web3forms.com/submit" method="POST">
+            <input
+              type="hidden"
+              name="access_key"
+              value="PLACE YOUR ACCESS KEY HERE"
+            />
+            <input
+              type="email"
+              name="email_newsletter"
+              placeholder="Email Address"
+            />
+            <button type="submit"><i class="fa-solid fa-arrow-up"></i></button>
+          </form>
+        </div>
+        <div class="footer-links">
+          <div class="footer-link">
+            <h6>Services</h6>
+            <div class="navigation">
+              <a href="pricing.html">Chi siamo</a>
+              <a href="pricing.html">Noleggio auto</a>
+              <a href="pricing.html">Bmotive</a>
+              <a href="pricing.html">Servizi</a>
+              <a href="pricing.html">Noleggio E-furgoni</a>
+            </div>
+          </div>
+          <div class="footer-link">
+            <h6>Navigation</h6>
+            <div class="navigation">
+              <a href="index.html">Home</a>
+              <a href="index.html#about">Chi siamo</a>
+              <a href="index.html#services">Servizi</a>
+              <a href="index.html#pricing">Noleggio</a>
+            </div>
+          </div>
+          <div class="footer-link">
+            <h6>Aiuto</h6>
+            <div class="navigation">
+              <a href="contact.html">Contattaci</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr id="bf-hr" />
+
+      <div class="socials">
+        <div class="social-media">
+          <a class="social-box"><i class="fa-brands fa-facebook-f"></i></a>
+          <a class="social-box"><i class="fa-brands fa-x-twitter"></i></a>
+          <a class="social-box"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a class="social-box"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <p>@ 2024 All Rights Reserved Bmotive</p>
+      </div>
+    </section>
+
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>
